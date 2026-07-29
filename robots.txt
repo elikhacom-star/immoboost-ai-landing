@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://immoboost-ai.adminbelgique.com/sitemap.xml
+
+# Crawl-delay (gentil avec Google)
+Crawl-delay: 1
