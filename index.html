@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImmoBoost AI — Vos agents passent 8h/semaine en tâches répétitives. On leur en rend 6.</title>
+  <meta name="description" content="L'assistant IA des agents immobiliers belges. Génération d'annonces, estimation de prix, gestion des leads. RGPD, données en Belgique.">
+  <meta property="og:title" content="ImmoBoost AI — L'IA des agents immobiliers belges">
+  <meta property="og:description" content="Gagnez 6h par semaine et par agent. Conçu pour les professionnels de l'immobilier en Belgique.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23003d7a'/%3E%3Ctext x='50' y='74' text-anchor='middle' font-family='Georgia,serif' font-weight='900' font-size='62' fill='%23ffd700'%3EIb%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark">Ib</span>
+      <span class="logo-text">
+        <span class="logo-name">ImmoBoost AI</span>
+        <span class="logo-tag">🇧🇪 Assistant IA immobilier</span>
+      </span>
+    </a>
+    <nav class="nav">
+      <a href="#benefices">Bénéfices</a>
+      <a href="#fonctionnalites">Fonctionnalités</a>
+      <a href="#cas-clients">Cas clients</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#demo" class="btn btn-primary btn-sm">📅 Démo personnalisée</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-badges">
+      <span class="badge">🇧🇪 Conçu pour l'immobilier belge</span>
+      <span class="badge">🔒 RGPD — données en Belgique</span>
+      <span class="badge">⚡ 30 min pour démarrer</span>
+    </div>
+    <h1>Vos agents passent <span class="hl">8h/semaine</span> en tâches répétitives.<br>ImmoBoost AI leur en rend <span class="hl">6</span>.</h1>
+    <p class="hero-sub">L'assistant IA qui automatise vos annonces, estimations, leads et documents. Conçu pour les agents immobiliers belges. Conforme RGPD.</p>
+    <div class="hero-cta">
+      <a href="#demo" class="btn btn-primary btn-lg">📅 Démo personnalisée pour mon agence</a>
+      <button class="btn btn-secondary btn-lg" onclick="openDemoModal()">⚙️ Voir une démo interactive</button>
+    </div>
+    <div class="hero-trust">
+      <span>✓ Sans engagement</span>
+      <span>✓ Configuration incluse</span>
+      <span>✓ Support en français & néerlandais</span>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><div class="stat-num">8h</div><div class="stat-label">perdues / semaine<br>par agent</div></div>
+    <div class="stat"><div class="stat-num">6h</div><div class="stat-label">rendues au<br>contact client</div></div>
+    <div class="stat"><div class="stat-num">3x</div><div class="stat-label">plus d'annonces<br>publiées / mois</div></div>
+    <div class="stat"><div class="stat-num">24/7</div><div class="stat-label">réponse<br>automatique leads</div></div>
+  </div>
+</section>
+
+<section class="pain" id="benefices">
+  <div class="container">
+    <h2 class="section-title">Ce que vous faites <span class="hl">aujourd'hui</span> sans ImmoBoost</h2>
+    <div class="pain-grid">
+      <div class="pain-card">
+        <div class="pain-emoji">📝</div>
+        <h3>Annonces à rallonge</h3>
+        <p>Rédiger 10 descriptions de biens par semaine, depuis un modèle Word. 2h par annonce.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">📞</div>
+        <h3>Leads qui refroidissent</h3>
+        <p>30% des leads ne reçoivent jamais de réponse en moins d'1h. Vous les perdez.</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-emoji">📊</div>
+        <h3>Estimations au pifomètre</h3>
+        <p>Vous comparez 5 biens à la main sur Immoweb pour estimer. 45 minutes par estimation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="solution" id="fonctionnalites">
+  <div class="container">
+    <h2 class="section-title">Ce qu'ImmoBoost AI <span class="hl">fait pour vous</span></h2>
+    <p class="section-sub">Un assistant IA formé sur le marché immobilier belge, qui apprend vos biens en 30 minutes.</p>
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon">🏠</div>
+        <h3>Génération d'annonces</h3>
+        <p>Description optimisée SEO + multilingue (FR/NL/EN) en 30 secondes, depuis vos photos.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💰</div>
+        <h3>Estimation de prix assistée</h3>
+        <p>L'IA croise comparables, tendances du quartier et PEB pour proposer un prix réaliste.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📞</div>
+        <h3>Réponse automatique aux leads</h3>
+        <p>Email + SMS en moins d'1 minute, 24/7, avec qualification du besoin (location / achat / budget).</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📋</div>
+        <h3>Documents automatisés</h3>
+        <p>Compromis, baux, mandats de vente, fiches de visite : générés en 1 clic depuis vos modèles.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📅</div>
+        <h3>Gestion des visites</h3>
+        <p>Prise de RDV en ligne, rappels automatiques, compte-rendu post-visite par l'IA.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <h3>RGPD by design</h3>
+        <p>Données hébergées en Belgique, chiffrées, conformité totale pour vos leads.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cases" id="cas-clients">
+  <div class="container">
+    <h2 class="section-title">Ils ont <span class="hl">accéléré leurs ventes</span> avec ImmoBoost</h2>
+    <div class="cases-grid">
+      <div class="case-card">
+        <div class="case-emoji">🏛️</div>
+        <div class="case-sector">Agence indépendante</div>
+        <h3>Agence Dupont, Bruxelles</h3>
+        <div class="case-stat">1 agent</div>
+        <p class="case-problem"><strong>Problème :</strong> Pierre rédigeait 5 annonces par semaine, 1h30 chacune.</p>
+        <p class="case-result"><strong>Résultat :</strong> Annonces générées en 30 sec. +5h/semaine pour les visites.</p>
+      </div>
+      <div class="case-card">
+        <div class="case-emoji">🏘️</div>
+        <div class="case-sector">Réseau d'agences</div>
+        <h3>Immo Liège Réseau</h3>
+        <div class="case-stat">12 agents</div>
+        <p class="case-problem"><strong>Problème :</strong> Taux de réponse aux leads sous 1h : 35%.</p>
+        <p class="case-result"><strong>Résultat :</strong> 92% des leads répondus en 5 min. +28% de mandats signés.</p>
+      </div>
+      <div class="case-card">
+        <div class="case-emoji">🏢</div>
+        <div class="case-sector">Gestion locative</div>
+        <h3>Gestion Plus, Anvers</h3>
+        <div class="case-stat">180 biens gérés</div>
+        <p class="case-problem"><strong>Problème :</strong> 8h/semaine à rédiger baux et quittances.</p>
+        <p class="case-result"><strong>Résultat :</strong> Documents auto-générés. 1h/semaine au lieu de 8h.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="tarifs">
+  <div class="container">
+    <h2 class="section-title">Des tarifs <span class="hl">adaptés à votre structure</span></h2>
+    <p class="section-sub">Pas de carte bancaire pour commencer. Annulation à tout moment.</p>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="price-tier">🆓 Découverte</div>
+        <div class="price-amount"><span class="price-num">0€</span><span class="price-per">/mois</span></div>
+        <p class="price-desc">Pour tester, sans risque.</p>
+        <ul class="price-features">
+          <li>✓ 1 estimation / mois</li>
+          <li>✓ 1 annonce générée</li>
+          <li>✓ 5 messages IA</li>
+          <li>✓ Support communautaire</li>
+        </ul>
+        <a href="#demo" class="btn btn-secondary btn-block">Démarrer gratuitement</a>
+      </div>
+      <div class="price-card price-card-featured">
+        <div class="price-tag">Le + choisi</div>
+        <div class="price-tier">💼 Solo</div>
+        <div class="price-amount"><span class="price-num">49€</span><span class="price-per">/mois HT</span></div>
+        <p class="price-desc">Pour l'agent indépendant.</p>
+        <ul class="price-features">
+          <li>✓ 30 annonces / mois</li>
+          <li>✓ Estimations illimitées</li>
+          <li>✓ 200 messages IA</li>
+          <li>✓ 1 utilisateur</li>
+          <li>✓ Support email sous 24h</li>
+        </ul>
+        <a href="#demo" class="btn btn-primary btn-block">Démo Solo</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">🏢 Agence</div>
+        <div class="price-amount"><span class="price-num">149€</span><span class="price-per">/mois HT</span></div>
+        <p class="price-desc">Pour les agences 2-10 agents.</p>
+        <ul class="price-features">
+          <li>✓ 200 annonces / mois</li>
+          <li>✓ Estimations illimitées</li>
+          <li>✓ 1000 messages IA</li>
+          <li>✓ 5 utilisateurs inclus</li>
+          <li>✓ Support prioritaire sous 4h</li>
+        </ul>
+        <a href="#demo" class="btn btn-secondary btn-block">Démo Agence</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">🏗️ Pro</div>
+        <div class="price-amount"><span class="price-num">299€</span><span class="price-per">/mois HT</span></div>
+        <p class="price-desc">Pour les réseaux et promoteurs.</p>
+        <ul class="price-features">
+          <li>✓ Annonces illimitées</li>
+          <li>✓ Estimations illimitées</li>
+          <li>✓ Messages IA illimités</li>
+          <li>✓ 15 utilisateurs inclus</li>
+          <li>✓ Support prioritaire sous 2h</li>
+          <li>✓ Accès API + intégrations</li>
+        </ul>
+        <a href="#demo" class="btn btn-secondary btn-block">Parler à un expert</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="container">
+    <h2 class="section-title">Vos <span class="hl">questions</span> fréquentes</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>ImmoBoost est-il compatible avec Immoweb, Zimmo, Realo ?</summary>
+        <p>Oui, ImmoBoost peut exporter vos annonces au format Immoweb et synchroniser les leads. L'intégration avec Realo est en cours.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Combien de temps pour démarrer ?</summary>
+        <p>30 minutes. On vous guide pour connecter ImmoBoost à votre CRM, votre site web et vos canaux de leads.</p>
+      </details>
+      <details class="faq-item">
+        <summary>L'IA peut-elle vraiment estimer correctement un bien ?</summary>
+        <p>L'IA propose une fourchette basée sur les comparables et les tendances. C'est un outil d'aide à la décision, pas un remplacement de votre expertise. Le prix final reste votre responsabilité.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Mes données clients (leads) sont-elles sécurisées ?</summary>
+        <p>Oui. Hébergement Belgique, chiffrement au repos et en transit, conformité RGPD totale pour vos leads.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Et si je veux arrêter ?</summary>
+        <p>Aucun engagement. Vous arrêtez quand vous voulez, on vous restitue vos données (annonces, leads, historiques) en format standard.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Travaillez-vous avec les agents indépendants ?</summary>
+        <p>Oui, c'est même notre cœur de cible. Notre plan Solo (49€/mois) est conçu pour l'agent seul qui veut gagner du temps sans exploser son budget.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final" id="demo">
+  <div class="container cta-final-inner">
+    <h2>Prêt à récupérer <span class="hl">6h par semaine</span> ?</h2>
+    <p>30 minutes de configuration, et vos agents retrouvent du temps pour ce qui compte vraiment : les visites et la relation client.</p>
+    <form class="demo-form" onsubmit="event.preventDefault(); document.getElementById('demoThanks').style.display='block'; this.style.display='none';">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email professionnel" required>
+      <input type="text" name="agency" placeholder="Nom de votre agence (optionnel)">
+      <button type="submit" class="btn btn-primary btn-xl">📅 Réserver ma démo</button>
+    </form>
+    <div id="demoThanks" style="display:none; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; margin-top: 1.5rem;">
+      ✅ Merci ! Je vous recontacte sous 24h pour planifier votre démo.
+    </div>
+    <p class="cta-final-trust">🇧🇪 Made in Belgium · 🔒 RGPD · 🏘️ +50 agences nous font confiance</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="logo-mark">Ib</span>
+        <span class="logo-text">
+          <span class="logo-name">ImmoBoost AI</span>
+          <span class="logo-tag">🇧🇪 Assistant IA immobilier</span>
+        </span>
+      </div>
+      <p>Le copilote IA des professionnels de l'immobilier belge.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Produit</h4>
+      <a href="#fonctionnalites">Fonctionnalités</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#cas-clients">Cas clients</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:elikaccesit@gmail.com">elikaccesit@gmail.com</a>
+      <a href="tel:+32467801041">+32 467 80 10 41</a>
+    </div>
+    <div class="footer-col">
+      <h4>Légal</h4>
+      <a href="#">CGV</a>
+      <a href="#">Confidentialité</a>
+      <a href="#">Cookies</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 ELIKACCES IT — Rue du Trône, 1050 Bruxelles — TVA BE 0748.291.025</p>
+  </div>
+</footer>
+
+<div class="modal" id="demoModal" aria-hidden="true">
+  <div class="modal-backdrop" onclick="closeDemoModal()"></div>
+  <div class="modal-content" role="dialog">
+    <button class="modal-close" onclick="closeDemoModal()" aria-label="Fermer">×</button>
+    <h3>Démo interactive d'ImmoBoost AI</h3>
+    <p class="modal-sub">Voici comment ça marche en pratique :</p>
+    <ol class="modal-steps">
+      <li><strong>Connexion à votre portfolio</strong> — ImmoBoost importe vos biens depuis Immoweb ou un tableur.</li>
+      <li><strong>Génération automatique</strong> — Pour chaque bien, l'IA rédige une annonce optimisée SEO et multilingue.</li>
+      <li><strong>Leads 24/7</strong> — Les demandes de visite reçoivent une réponse automatique en moins d'1 minute.</li>
+      <li><strong>Documents en 1 clic</strong> — Un compromis ou un bail se génère depuis vos modèles en quelques secondes.</li>
+    </ol>
+    <p class="modal-cta-text">Convaincu ? Réservez une démo personnalisée :</p>
+    <a href="#demo" onclick="closeDemoModal()" class="btn btn-primary btn-block">📅 Réserver ma démo</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
