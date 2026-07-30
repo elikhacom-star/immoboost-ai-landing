@@ -1,8 +1,11 @@
+# Robots.txt pour ImmoBoost AI
 User-agent: *
 Allow: /
 
 # Sitemap
 Sitemap: https://immoboost-ai.adminbelgique.com/sitemap.xml
 
-# Crawl-delay (gentil avec Google)
-Crawl-delay: 1
+# Bloquer les pages d'app privées
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
